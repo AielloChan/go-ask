@@ -16,6 +16,18 @@
 
 ## 使用方式
 
+### MacOS
+
+```bash
+brew tap AielloChan/go-ask
+brew install go-ask
+```
+
+### Linux
+
+```bash
+
+```
 1. 从 [releases](https://github.com/AielloChan/go-ask/releases) 下载最新的版本。**目前只有 macOS 系统的二进制文件**
 2. 将文件存放到用户执行目录下并重命名为 **gcm**，如 `mv go-ask /usr/local/bin/gcm`，并授予执行权限 `chmod +x /usr/local/bin/gcm`
 3. 在你要执行 `gcm` 的目录下新建文件 **ask.config.json**，然后写入如下示例配置内容，即可通过 `gcm` 命令使用: 
