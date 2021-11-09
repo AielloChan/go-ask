@@ -22,6 +22,7 @@ type StageConfig struct {
 	Success string          `json:"success"`
 	Failed  string          `json:"failed"`
 }
+
 type Stage struct {
 	Label  string      `json:"label"`
 	Name   string      `json:"name"`
@@ -29,6 +30,7 @@ type Stage struct {
 	Config StageConfig `json:"config"`
 	Next   string      `json:"next"`
 }
+
 type Configuration struct {
 	Stages []Stage `json:"stages"`
 }

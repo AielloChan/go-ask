@@ -22,7 +22,7 @@ func InitConfig(filePth string) (Configuration, error) {
 	curPath, _ := os.Getwd()
 	_, err := os.Stat(filepath.Join(curPath, filePth))
 	if err != nil {
-		return Configuration{}, errors.New("Config 'commit.config.json' not exist at current path '" + curPath + "' or do not have access permission")
+		return Configuration{}, errors.New("Config 'ask.config.json' not exist at current path '" + curPath + "' or do not have access permission")
 	}
 
 	cfg, err := GetConfig(filePth)

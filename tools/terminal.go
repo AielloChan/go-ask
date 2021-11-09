@@ -3,8 +3,8 @@ package tools
 import (
 	"strings"
 
-	"yuanling.com/go-commit/model"
-	"yuanling.com/go-commit/shell"
+	"aiellochan.com/go-ask/model"
+	"aiellochan.com/go-ask/shell"
 )
 
 const (

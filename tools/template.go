@@ -6,7 +6,7 @@ import (
 	"html/template"
 	"strings"
 
-	"yuanling.com/go-commit/model"
+	"aiellochan.com/go-ask/model"
 )
 
 func ProcessTpl(tplStr string, store *model.Store) (string, error) {

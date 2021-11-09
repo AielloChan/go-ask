@@ -7,11 +7,11 @@ import (
 	"strconv"
 	"strings"
 
+	"aiellochan.com/go-ask/configuration"
+	"aiellochan.com/go-ask/model"
+	"aiellochan.com/go-ask/tools"
 	"github.com/AlecAivazis/survey/v2"
 	"github.com/fatih/color"
-	"yuanling.com/go-commit/configuration"
-	"yuanling.com/go-commit/model"
-	"yuanling.com/go-commit/tools"
 )
 
 const END_ROUTE = "$END"

@@ -2,11 +2,11 @@
 
 期望的使用方式
 
-> go-commit
+> go-ask
 No files added to staging! Did you forget to run git add?
 > git init
 > git add .
-> go-commit
+> go-ask
 cz-cli@4.2.2, cz-conventional-changelog@3.3.0
 
 ? Select the type of change that you're committing: (Use arrow keys)

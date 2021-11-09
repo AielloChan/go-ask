@@ -1,9 +1,11 @@
-<h1 align="center">Go Commit</h1>
+<h1 align="center">Go Ask</h1>
 <p align="center"><image src="https://user-images.githubusercontent.com/84165977/122666478-044d8200-d1e0-11eb-982f-0f25aa9f59aa.png" width="512"/></p>
 
-## Go Commit
+## Go Ask
 
-一个用 Golang 编写的命令行工具，类似 [commitizen](https://github.com/commitizen/cz-cli) ，但速度更快，支持流程化的配置，并且有强大的字符串模板功能。
+一个用 Golang 编写的命令行工具，最初是想做类似 [commitizen](https://github.com/commitizen/cz-cli) ，但速度更快，支持流程化的配置，并且有强大的字符串模板功能。
+
+但是目前，它已经是一个支持流程化配置的交互式命令行工具了🤷‍♂️
 
 ## 特性
 
@@ -14,9 +16,9 @@
 
 ## 使用方式
 
-1. 从 [releases](https://github.com/AielloChan/go-commit/releases) 下载最新的版本。**目前只有 macOS 系统的二进制文件**
-2. 将文件存放到用户执行目录下并重命名为 **gcm**，如 `mv go-commit /usr/local/bin/gcm`，并授予执行权限 `chmod +x /usr/local/bin/gcm`
-3. 在你要执行 `gcm` 的目录下新建文件 **commit.config.json**，然后写入如下示例配置内容，即可通过 `gcm` 命令使用: 
+1. 从 [releases](https://github.com/AielloChan/go-ask/releases) 下载最新的版本。**目前只有 macOS 系统的二进制文件**
+2. 将文件存放到用户执行目录下并重命名为 **gcm**，如 `mv go-ask /usr/local/bin/gcm`，并授予执行权限 `chmod +x /usr/local/bin/gcm`
+3. 在你要执行 `gcm` 的目录下新建文件 **ask.config.json**，然后写入如下示例配置内容，即可通过 `gcm` 命令使用: 
 
 ### 配置文件示例
 <details>

@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"os"
 
+	"aiellochan.com/go-ask/configuration"
+	"aiellochan.com/go-ask/model"
+	"aiellochan.com/go-ask/pipline"
+	"aiellochan.com/go-ask/tools"
 	"github.com/AlecAivazis/survey/v2/terminal"
-	"yuanling.com/go-commit/configuration"
-	"yuanling.com/go-commit/model"
-	"yuanling.com/go-commit/pipline"
-	"yuanling.com/go-commit/tools"
 )
 
 var (
@@ -19,7 +19,7 @@ var (
 
 func init() {
 	flag.BoolVar(&eject, "eject", false, "eject default config file")
-	flag.StringVar(&config, "config", "commit.config.json", "string flag value")
+	flag.StringVar(&config, "config", "ask.config.json", "string flag value")
 }
 
 func run(configFile string) {
