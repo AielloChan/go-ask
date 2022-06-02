@@ -193,7 +193,7 @@ brew install go-ask
 
 - [x] 整理代码结构
 - [x] 完善错误处理
+- [x] pull request [survey](https://github.com/AlecAivazis/survey) 的源码，使其多行编辑更友好
+- [x] pull request [survey](https://github.com/AlecAivazis/survey) 的源码，使其多语言提示更友好
 - [ ] 增加测试
 - [ ] 发布二进制包到包管理器（homebrew、yum、apt、WinGet）
-- [ ] pull request [survey](https://github.com/AlecAivazis/survey) 的源码，使其多行编辑更友好
-- [ ] pull request [survey](https://github.com/AlecAivazis/survey) 的源码，使其多语言提示更友好
